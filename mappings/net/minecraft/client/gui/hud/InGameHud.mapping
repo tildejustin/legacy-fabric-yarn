@@ -16,6 +16,7 @@ CLASS net/minecraft/class_371 net/minecraft/client/gui/hud/InGameHud
 	FIELD field_1164 itemRenderer Lnet/minecraft/class_560;
 	FIELD field_1165 random Ljava/util/Random;
 	FIELD field_1166 client Lnet/minecraft/class_1600;
+	FIELD field_1166 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_1167 chatHud Lnet/minecraft/class_357;
 	FIELD field_1168 ticks I
 	FIELD field_1169 overlayMessage Ljava/lang/String;
@@ -85,6 +86,7 @@ CLASS net/minecraft/class_371 net/minecraft/client/gui/hud/InGameHud
 	METHOD method_9438 getPlayerListWidget ()Lnet/minecraft/class_2308;
 	METHOD method_9439 resetDebugHudChunk ()V
 	METHOD method_977 tick ()V
+	METHOD method_979 drawGui (FZII)V
 	METHOD method_982 setRecordPlayingOverlay (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD method_983 getChatHud ()Lnet/minecraft/class_357;

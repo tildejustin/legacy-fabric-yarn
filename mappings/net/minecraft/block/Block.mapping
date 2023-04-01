@@ -15,7 +15,9 @@ CLASS net/minecraft/class_197 net/minecraft/block/Block
 	FIELD field_22995 COAL_BLOCK_APRIL Lnet/minecraft/class_197;
 	FIELD field_22996 TINTED_GLASS Lnet/minecraft/class_197;
 	FIELD field_22997 DOUBLE_ETHO_SLAB Lnet/minecraft/class_143;
+	FIELD field_334 FLOWING_WATER Lnet/minecraft/class_197;
 	FIELD field_335 WATER Lnet/minecraft/class_197;
+	FIELD field_336 FLOWING_LAVA Lnet/minecraft/class_197;
 	FIELD field_337 LAVA Lnet/minecraft/class_197;
 	FIELD field_338 SAND_BLOCK Lnet/minecraft/class_197;
 	FIELD field_339 GRAVEL_BLOCK Lnet/minecraft/class_197;
@@ -84,6 +86,8 @@ CLASS net/minecraft/class_197 net/minecraft/block/Block
 	FIELD field_404 FIRE Lnet/minecraft/class_137;
 	FIELD field_405 SPAWNER Lnet/minecraft/class_197;
 	FIELD field_406 WOODEN_STAIRS Lnet/minecraft/class_197;
+	FIELD field_407 CHEST Lnet/minecraft/class_197;
+	FIELD field_408 REDSTONE_DUST Lnet/minecraft/class_197;
 	FIELD field_409 DIAMOND_ORE Lnet/minecraft/class_197;
 	FIELD field_410 DIAMOND_BLOCK Lnet/minecraft/class_197;
 	FIELD field_411 CRAFTING_TABLE Lnet/minecraft/class_197;
@@ -94,6 +98,7 @@ CLASS net/minecraft/class_197 net/minecraft/block/Block
 	FIELD field_416 NETHER_WART Lnet/minecraft/class_197;
 	FIELD field_417 ENCHANTING_TABLE Lnet/minecraft/class_197;
 	FIELD field_418 BREWING_STAND Lnet/minecraft/class_197;
+	FIELD field_419 CAULDRON Lnet/minecraft/class_197;
 	FIELD field_420 END_PORTAL Lnet/minecraft/class_197;
 	FIELD field_421 END_PORTAL_FRAME Lnet/minecraft/class_197;
 	FIELD field_422 END_STONE Lnet/minecraft/class_197;

@@ -13,6 +13,7 @@ CLASS net/minecraft/class_518 net/minecraft/entity/player/ClientPlayerEntity
 	FIELD field_10637 serverBrand Ljava/lang/String;
 	FIELD field_1758 input Lnet/minecraft/class_516;
 	FIELD field_1759 client Lnet/minecraft/class_1600;
+	FIELD field_1759 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_1764 ticksSinceSprintingChanged I
 	FIELD field_1765 renderYaw F
 	FIELD field_1766 renderPitch F

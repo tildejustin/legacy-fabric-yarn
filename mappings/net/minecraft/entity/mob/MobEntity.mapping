@@ -5,6 +5,7 @@ CLASS net/minecraft/class_871 net/minecraft/entity/mob/MobEntity
 	FIELD field_3323 visbilityCache Lnet/minecraft/class_935;
 	FIELD field_3336 goals Lnet/minecraft/class_897;
 	FIELD field_3337 attackGoals Lnet/minecraft/class_897;
+	FIELD field_3350 jumping Z
 	FIELD field_3354 navigation Lnet/minecraft/class_934;
 	FIELD field_3360 lookControl Lnet/minecraft/class_883;
 	FIELD field_3361 entityMotionHelper Lnet/minecraft/class_884;
@@ -64,6 +65,7 @@ CLASS net/minecraft/class_871 net/minecraft/entity/mob/MobEntity
 	METHOD method_2636 getLookPitchSpeed ()I
 	METHOD method_2637 canSpawn ()Z
 	METHOD method_2639 getLimitPerChunk ()I
+	METHOD method_2651 tickMovement ()V
 	METHOD method_2659 setForwardSpeed (F)V
 		ARG 1 forwardSpeed
 	METHOD method_4470 getArmorItem (II)Lnet/minecraft/class_1069;
