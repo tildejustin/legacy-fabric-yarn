@@ -26,10 +26,10 @@ CLASS net/minecraft/class_226 net/minecraft/block/entity/BlockEntity
 	METHOD method_13323 (Lnet/minecraft/class_1150;)V
 		ARG 1 world
 	METHOD method_13723 getIdentifier (Ljava/lang/Class;)Lnet/minecraft/class_1653;
-		ARG 0 clazz
+		ARG 0 entityClass
 	METHOD method_13724 addBlockEntity (Ljava/lang/String;Ljava/lang/Class;)V
 		ARG 0 identifier
-		ARG 1 clazz
+		ARG 1 entityClass
 	METHOD method_4215 populateCrashReport (Lnet/minecraft/class_1392;)V
 		ARG 1 section
 	METHOD method_4216 getSquaredRenderDistance ()D
@@ -54,8 +54,8 @@ CLASS net/minecraft/class_226 net/minecraft/block/entity/BlockEntity
 	METHOD method_542 createFromNbt (Lnet/minecraft/class_322;)Lnet/minecraft/class_226;
 		ARG 0 nbt
 	METHOD method_543 markDirty ()V
-	METHOD method_544 getPacket ()Lnet/minecraft/class_700;
 	METHOD method_544 getUpdatePacket ()Lnet/minecraft/class_2003;
+	METHOD method_544 getPacket ()Lnet/minecraft/class_700;
 	METHOD method_546 resetBlock ()V
 	METHOD method_547 markRemoved ()V
 	METHOD method_548 getEntityWorld ()Lnet/minecraft/class_1150;

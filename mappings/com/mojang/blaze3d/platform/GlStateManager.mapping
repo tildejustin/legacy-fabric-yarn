@@ -119,7 +119,7 @@ CLASS net/minecraft/class_2403 com/mojang/blaze3d/platform/GlStateManager
 		ARG 0 coord
 		ARG 1 mode
 	METHOD method_9809 genTex (Lnet/minecraft/class_2403$class_2418;ILjava/nio/FloatBuffer;)V
-		COMMENT Allows controling the generation of texture coordinates with a float buffer
+		COMMENT Allows controlling the generation of texture coordinates with a float buffer
 		ARG 0 coord
 		ARG 1 mode
 		ARG 2 buffer
@@ -345,7 +345,6 @@ CLASS net/minecraft/class_2403 com/mojang/blaze3d/platform/GlStateManager
 		FIELD field_10779 R Lnet/minecraft/class_2403$class_2418;
 		FIELD field_10780 Q Lnet/minecraft/class_2403$class_2418;
 	CLASS class_2419 TexGenCoordState
-		COMMENT
 		FIELD field_10782 capState Lnet/minecraft/class_2403$class_2406;
 		FIELD field_10783 coord I
 		FIELD field_10784 mode I

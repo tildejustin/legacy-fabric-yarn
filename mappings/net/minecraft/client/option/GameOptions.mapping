@@ -41,7 +41,7 @@ CLASS net/minecraft/class_347 net/minecraft/client/option/GameOptions
 	FIELD field_7652 GSON Lcom/google/gson/Gson;
 	FIELD field_7653 STRING_LIST_TYPE Ljava/lang/reflect/ParameterizedType;
 	FIELD field_7654 STREAM_CHAT_ENABLED [Ljava/lang/String;
-	FIELD field_7655 STREAM_MIC_TIGGLE [Ljava/lang/String;
+	FIELD field_7655 STREAM_MIC_TOGGLE [Ljava/lang/String;
 	FIELD field_7656 soundVolumeLevels Ljava/util/Map;
 	FIELD field_7657 sprintKey Lnet/minecraft/class_327;
 	FIELD field_7658 screenshotKey Lnet/minecraft/class_327;
@@ -136,16 +136,16 @@ CLASS net/minecraft/class_347 net/minecraft/client/option/GameOptions
 	METHOD method_865 load ()V
 	METHOD method_866 getLanguageFromId (I)Ljava/lang/String;
 		ARG 1 language
-	METHOD method_868 getFLoatOption (Lnet/minecraft/class_350;)F
-		ARG 1 option
 	METHOD method_868 getIntValue (Lnet/minecraft/class_347$class_350;)F
 		ARG 1 option
-	METHOD method_869 setOption (Lnet/minecraft/class_350;F)V
+	METHOD method_868 getFLoatOption (Lnet/minecraft/class_350;)F
 		ARG 1 option
-		ARG 2 value
 	METHOD method_869 setValue (Lnet/minecraft/class_347$class_350;F)V
 		ARG 1 option
 		ARG 2 var
+	METHOD method_869 setOption (Lnet/minecraft/class_350;F)V
+		ARG 1 option
+		ARG 2 value
 	METHOD method_870 getBooleanValue (Lnet/minecraft/class_347$class_350;I)V
 		ARG 1 option
 		ARG 2 integer
@@ -164,9 +164,9 @@ CLASS net/minecraft/class_347 net/minecraft/client/option/GameOptions
 		ARG 1 option
 	METHOD method_877 getFormattedNameForKeyCode (I)Ljava/lang/String;
 		ARG 0 code
-	METHOD method_878 getStringOption (Lnet/minecraft/class_350;)Ljava/lang/String;
-		ARG 1 option
 	METHOD method_878 getValueMessage (Lnet/minecraft/class_347$class_350;)Ljava/lang/String;
+		ARG 1 option
+	METHOD method_878 getStringOption (Lnet/minecraft/class_350;)Ljava/lang/String;
 		ARG 1 option
 	METHOD method_9411 togglePlayerModelPart (Lnet/minecraft/class_2670;)V
 		ARG 1 part

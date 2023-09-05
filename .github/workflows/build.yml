@@ -1,35 +1,36 @@
 name: Build
+
 on: [pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix: 
         mc_version: [
-            '1.3.2',
-            '1.4.7',
-            '1.5.2',
-            '1.6.4',
-            '1.7.10',
-            '1.8',
-            '1.8.9',
-            '1.9.4',
-            '1.10.2',
-            '1.11.2',
-            '1.12.2',
-            '1.13.2'
+          '1.3.2',
+          '1.4.7',
+          '1.5.2',
+          '1.6.4',
+          '1.7.10',
+          '1.8',
+          '1.8.9',
+          '1.9.4',
+          '1.10.2',
+          '1.11.2',
+          '1.12.2',
+          '1.13.2'
         ]
     env: 
         MC_VERSION: ${{ matrix.mc_version }}
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3.0.0
+      - uses: actions/setup-python@v3
         with:
-          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-          architecture: 'x64'
+          python-version: '3.x'
       - uses: actions/setup-java@v3
         with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
+          distribution: 'temurin'
           java-version: '17'
       - run: python ./yarn.py $MC_VERSION build javadocJar checkMappings mapNamedJar --stacktrace
       - run: python ./yarn.py $MC_VERSION publishToMavenLocal --stacktrace
